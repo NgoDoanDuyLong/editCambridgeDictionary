@@ -35,7 +35,7 @@ class Cambridge_DuyLong {
                 return node.innerText.trim();
         }
 
-        let base = 'https://dictionary.cambridge.org/vi/spellcheck/english-vietnamese/?q=';
+        let base = 'https://dictionary.cambridge.org/vi/dictionary/english-vietnamese/blame';
         let url = base + encodeURIComponent(word);
         let doc = ''
         try {
