@@ -35,9 +35,9 @@ class Cambridge_DuyLong {
                 return node.innerText.trim();
         }
 
-        let base = '';
+        let base = 'https://dictionary.cambridge.org/vi/spellcheck/english-vietnamese/?q=';
         let url = base + encodeURIComponent(word);
-        let doc = 'https://dictionary.cambridge.org/vi/dictionary/english/'
+        let doc = ''
         try {
             let data = await api.fetch(url);
             let parser = new DOMParser();
