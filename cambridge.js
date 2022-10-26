@@ -37,7 +37,7 @@ class Cambridge_DuyLong {
 
         let base = '';
         let url = base + encodeURIComponent(word);
-        let doc = ''https://dictionary.cambridge.org/vi/dictionary/english/
+        let doc = 'https://dictionary.cambridge.org/vi/dictionary/english/'
         try {
             let data = await api.fetch(url);
             let parser = new DOMParser();
